@@ -18,7 +18,7 @@ main{
 .snicker{
   top: 8vh;
   position: absolute;
-  left: 20vw;
+  left: 15vw;
   display: block;
   img{
     height: 500px;
@@ -49,28 +49,34 @@ main{
   width: 300px;
   height: 300px;
   position: absolute;
-  right: 20%;
-  top: 20%;
+  right: 20vw;
+  top: 8vw;
   font-weight: 700;
   font-size: 22px;
   h2{
     padding-bottom: 20px;
   }
+  h3{
+    padding-top: 30px;
+    font-weight: 100;
+  }
   .stars{
-    img{
-
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
     p{
-      display: inline ;
+      padding-left: 10px;
+      font-weight: 100;
+      font-size: 20px;
     }
     padding-top: 30px;
   }
   .colors__choice{
     p{
-      padding-top: 20px;
+      padding-top: 30px;
       font-weight: 100;
     }
-    
     .color{
       margin-top: 20px;
       display: inline-block;
@@ -84,5 +90,38 @@ main{
       background-color: white;
       margin-left: 15px;
     }
+    
+  }
+  form{
+    margin-top: 30px;
+    input{
+      width: 120px;
+      height: 20px;
+      border: none;
+      font-size: 20px;
+      color: black;
+      
+    }
+  }
+  
+}
+.yellow--buton{
+  margin-top: 30px;
+  color: black;
+  font-weight: 900;
+  background-color: #FFE512;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+}
+.More__description{
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  p{
+    margin-left: 20px;
+  }
+  img{
+
   }
 }
